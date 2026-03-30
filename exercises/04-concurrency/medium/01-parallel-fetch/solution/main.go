@@ -2,7 +2,6 @@ package parallel_fetch
 
 import (
 	"context"
-	"sync"
 
 	"golang.org/x/sync/errgroup"
 )
@@ -19,9 +18,6 @@ type Result struct {
 // Если ctx отменён, возвращает ошибку контекста.
 func FetchAll(ctx context.Context, urls []string, fetch func(ctx context.Context, url string) (string, error)) ([]Result, error) {
 	results := make([]Result, len(urls))
-	var mu sync.Mutex
-	_ = mu // используется для безопасной записи в results
-
 	g, gCtx := errgroup.WithContext(ctx)
 	g.SetLimit(10)
 

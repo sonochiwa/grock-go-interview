@@ -11,7 +11,9 @@
 01-fundamentals → 02-interfaces → 03-errors → 04-concurrency →
 05-sync → 06-concurrency-patterns → 07-memory-model → 08-generics →
 09-internals → 10-profiling → 11-design-patterns → 12-reflect →
-13-codegen → 14-version-history
+13-codegen → 14-version-history → 15-system-design → 16-grpc →
+17-kafka → 18-testing → 19-production → 20-architecture →
+21-security → 22-performance → 23-infrastructure
 ```
 
 ## Содержание
@@ -44,6 +46,18 @@
 ### Справочник
 
 - [ ] [14. История версий](14-version-history/) — изменения Go 1.18–1.26
+
+### Senior-Level Topics
+
+- [ ] [15. System Design](15-system-design/) — подход, расчёты, масштабирование, БД, кэширование, API, messaging, distributed systems, reliability, case studies
+- [ ] [16. gRPC](16-grpc/) — protobuf, типы вызовов, interceptors, error handling, metadata, production
+- [ ] [17. Kafka](17-kafka/) — библиотеки, producer/consumer паттерны, DLQ, тестирование
+- [ ] [18. Advanced Testing](18-testing-advanced/) — integration tests, mocks/fakes, fuzzing, race detector, synctest
+- [ ] [19. Production Go](19-production/) — graceful shutdown, observability (slog, Prometheus, OpenTelemetry), configuration, resilience
+- [ ] [20. Architecture](20-architecture/) — Clean Architecture, CQRS, Event Sourcing, DDD, microservices patterns
+- [ ] [21. Security](21-security/) — SQL injection, XSS, JWT, OAuth2, crypto, RBAC/ABAC
+- [ ] [22. Performance](22-performance/) — memory optimization, CPU, I/O, connection pooling, zero-copy
+- [ ] [23. Infrastructure](23-infrastructure/) — Docker multi-stage, Kubernetes, CI/CD, linting
 
 ### Практика
 

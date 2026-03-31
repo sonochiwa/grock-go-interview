@@ -43,8 +43,11 @@ exercises/<topic>/<difficulty>/<task-name>/
 | [18-security](18-security/) | 1 | 1 | — | Password hashing, JWT auth middleware |
 | [19-performance](19-performance/) | — | 1 | 1 | sync.Pool benchmark, sharded counter |
 | [20-infrastructure](20-infrastructure/) | 1 | — | — | Dockerfile multi-stage |
+| [21-networking](21-networking/) | — | 1 | — | TCP port scanner |
+| [22-linux](22-linux/) | — | 1 | — | Process monitor (/proc) |
+| [23-git](23-git/) | 1 | — | — | Conventional commit parser |
 | [interview-problems](interview-problems/) | 2 | 1 | 2 | Two sum, palindrome, merge intervals, sharded map, graceful server |
-| **Итого** | **15** | **19** | **5** | **39 задач** |
+| **Итого** | **16** | **22** | **5** | **43 задачи** |
 
 ## Как решать
 

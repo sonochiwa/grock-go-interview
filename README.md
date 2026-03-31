@@ -13,7 +13,8 @@
 09-internals → 10-profiling → 11-design-patterns → 12-reflect →
 13-codegen → 14-version-history → 15-system-design → 16-grpc →
 17-kafka → 18-testing → 19-production → 20-architecture →
-21-security → 22-performance → 23-infrastructure
+21-security → 22-performance → 23-infrastructure →
+24-networking → 25-linux → 26-git
 ```
 
 ## Содержание
@@ -58,6 +59,12 @@
 - [ ] [21. Security](21-security/) — SQL injection, XSS, JWT, OAuth2, crypto, RBAC/ABAC
 - [ ] [22. Performance](22-performance/) — memory optimization, CPU, I/O, connection pooling, zero-copy
 - [ ] [23. Infrastructure](23-infrastructure/) — Docker multi-stage, Kubernetes, CI/CD, linting
+
+### Фундаментальные знания
+
+- [ ] [24. Networking](24-networking/) — OSI, TCP/IP, HTTP/1.1-3, DNS, load balancing, troubleshooting
+- [ ] [25. Linux](25-linux/) — processes, filesystem, memory, networking, I/O, containers, troubleshooting, shell
+- [ ] [26. Git](26-git/) — internals (objects/DAG), branching (merge/rebase), workflows, bisect, hooks
 
 ### Практика
 

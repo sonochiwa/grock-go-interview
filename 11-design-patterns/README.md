@@ -28,3 +28,10 @@
 2. [Middleware](go-specific/02-middleware.md) — HTTP middleware
 3. [Table-Driven Tests](go-specific/03-table-driven-tests.md) — идиоматичные тесты
 4. [Dependency Injection](go-specific/04-dependency-injection.md) — через интерфейсы
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

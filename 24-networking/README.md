@@ -10,3 +10,10 @@
 4. [DNS](04-dns.md) — рекурсивный/итеративный, записи, кэширование, resolution chain
 5. [Load Balancing](05-load-balancing.md) — L4 vs L7, алгоритмы, health checks, sticky sessions
 6. [Network Troubleshooting](06-troubleshooting.md) — tcpdump, ss, dig, curl, MTU/MSS
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

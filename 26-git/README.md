@@ -10,3 +10,10 @@ Git internals и advanced usage на senior-уровне.
 4. [Advanced](04-advanced.md) — bisect, worktree, submodules, stash, interactive rebase, rerere
 5. [Hooks](05-hooks.md) — pre-commit, commit-msg, pre-push, CI integration
 6. [Troubleshooting](06-troubleshooting.md) — conflict resolution, reset/revert, recover lost commits
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

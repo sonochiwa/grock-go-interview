@@ -8,3 +8,10 @@
 2. [Authentication](02-authentication.md) — JWT, OAuth2, session management
 3. [Crypto](03-crypto.md) — hashing, encryption, TLS, certificates
 4. [Authorization](04-authorization.md) — RBAC, ABAC, middleware patterns
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

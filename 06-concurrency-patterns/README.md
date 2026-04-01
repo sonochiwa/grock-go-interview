@@ -29,3 +29,10 @@ Pub/Sub:      [Publisher] → [Topic] → [Sub1]
                                     → [Sub2]
                                     → [Sub3]
 ```
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

@@ -14,3 +14,10 @@
 8. [GC (classic)](08-gc-classic.md) — tri-color mark-sweep
 9. [GC (Green Tea)](09-gc-green-tea.md) — Go 1.26
 10. [Memory Allocator](10-memory-allocator.md) — mcache, mcentral, mheap
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

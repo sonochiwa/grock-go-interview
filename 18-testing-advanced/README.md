@@ -9,3 +9,10 @@
 3. [Fuzzing](03-fuzzing.md) — встроенный fuzzing (Go 1.18+)
 4. [Test Patterns](04-test-patterns.md) — golden files, test helpers, build tags
 5. [Race и Concurrency](05-race-concurrency.md) — race detector, synctest (Go 1.25+)
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

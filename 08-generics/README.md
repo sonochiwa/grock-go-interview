@@ -10,3 +10,10 @@
 4. [Generic Patterns](04-generic-patterns.md) — практические паттерны
 5. [Generic Type Aliases](05-generic-type-aliases.md) — Go 1.24
 6. [Limitations](06-limitations.md) — ограничения, workarounds
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

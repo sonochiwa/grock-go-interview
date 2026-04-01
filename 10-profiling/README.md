@@ -10,3 +10,10 @@
 4. [Trace](04-trace.md) — runtime/trace, визуализация горутин
 5. [Escape Analysis](05-escape-analysis.md) — gcflags, оптимизация аллокаций
 6. [PGO](06-pgo.md) — Profile-Guided Optimization
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

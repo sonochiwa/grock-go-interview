@@ -25,3 +25,10 @@
 
 - [<< 01 — Основы](../01-fundamentals/README.md)
 - [>> 03 — Ошибки](../03-errors/README.md)
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

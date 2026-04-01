@@ -9,3 +9,10 @@
 3. [Consumer паттерны](03-consumer.md) — consumer groups, rebalance, offset management
 4. [Обработка ошибок](04-error-handling.md) — DLQ, retry topics, idempotent consumer
 5. [Testing](05-testing.md) — integration tests, testcontainers
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

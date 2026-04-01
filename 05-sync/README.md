@@ -21,3 +21,10 @@
 7. [Atomic](07-atomic.md) — атомарные операции
 8. [Errgroup](08-errgroup.md) — параллельные задачи с ошибками
 9. [Singleflight](09-singleflight.md) — дедупликация вызовов
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

@@ -8,3 +8,10 @@
 2. [Observability](02-observability.md) — логирование (slog), метрики (Prometheus), трейсинг (OpenTelemetry)
 3. [Configuration](03-configuration.md) — env vars, config files, feature flags
 4. [Resilience](04-resilience.md) — circuit breaker, retry, health checks, readiness
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

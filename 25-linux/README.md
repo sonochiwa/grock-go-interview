@@ -12,3 +12,10 @@ Linux internals и administration на senior-уровне.
 6. [Containers Under the Hood](06-containers.md) — namespaces, cgroups, overlay fs
 7. [Troubleshooting](07-troubleshooting.md) — top, strace, lsof, dmesg, perf, vmstat
 8. [Shell Scripting](08-shell-scripting.md) — bash, awk/sed/grep, pipelines, job control
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

@@ -36,3 +36,10 @@
 
 ### Кейсы
 12. [Case Studies](12-case-studies.md) — Rate Limiter, URL Shortener, Chat, Feed, Notification
+
+
+---
+
+## Задачи
+
+Практические задачи по этой теме: [exercises/](exercises/)

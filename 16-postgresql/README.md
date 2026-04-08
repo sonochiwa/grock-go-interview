@@ -1,9 +1,10 @@
-# 27. PostgreSQL в Go
+# 16. PostgreSQL в Go
 
-Практическое руководство по работе с PostgreSQL из Go. Общая теория баз данных (SQL vs NoSQL, индексы, репликация, шардирование) описана в [System Design: Databases](../15-system-design/04-databases.md). Настройка пула соединений — в [Performance: I/O](../22-performance/03-io-networking.md).
+Практическое руководство по работе с PostgreSQL из Go. Общая теория баз данных (SQL vs NoSQL, индексы, репликация, шардирование) описана в [System Design: Databases](../17-system-design/04-databases.md). Настройка пула соединений — в [Performance: I/O](../22-performance/03-io-networking.md).
 
 ## Содержание
 
+0. [SQL Fundamentals](00-sql-fundamentals.md) — типы данных, SELECT, JOIN'ы, агрегации, оконные функции, нормализация, ACID
 1. [Драйверы и database/sql](01-drivers-and-stdlib.md) — database/sql vs pgx vs lib/pq, pgxpool
 2. [Запросы и сканирование](02-queries-and-scanning.md) — Query/QueryRow/Exec, Scan, sql.Null*, Batch
 3. [Транзакции](03-transactions.md) — уровни изоляции, retry, SELECT FOR UPDATE, savepoints

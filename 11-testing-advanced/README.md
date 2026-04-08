@@ -1,6 +1,6 @@
 # 18. Advanced Testing
 
-Продвинутые техники тестирования в Go для senior-уровня. Базовое тестирование (table-driven tests) — в [Design Patterns](../11-design-patterns/go-specific/03-table-driven-tests.md).
+Продвинутые техники тестирования в Go для senior-уровня. Базовое тестирование (table-driven tests) — в [Design Patterns](../13-design-patterns/go-specific/03-table-driven-tests.md).
 
 ## Содержание
 

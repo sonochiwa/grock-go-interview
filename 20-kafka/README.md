@@ -1,6 +1,6 @@
 # 17. Kafka в Go
 
-Практическое руководство по работе с Apache Kafka из Go. Архитектура и концепции Kafka описаны в [System Design: Messaging](../15-system-design/08-messaging.md).
+Практическое руководство по работе с Apache Kafka из Go. Архитектура и концепции Kafka описаны в [System Design: Messaging](../17-system-design/08-messaging.md).
 
 ## Содержание
 

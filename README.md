@@ -10,11 +10,11 @@
 ```
 01-fundamentals → 02-interfaces → 03-errors → 04-concurrency →
 05-sync → 06-concurrency-patterns → 07-memory-model → 08-generics →
-09-internals → 10-profiling → 11-design-patterns → 12-reflect →
-13-codegen → 14-version-history → 15-system-design → 16-grpc →
-17-kafka → 18-testing → 19-production → 20-architecture →
-21-security → 22-performance → 23-infrastructure →
-24-networking → 25-linux → 26-git
+09-stdlib → 10-internals → 11-testing → 12-profiling →
+13-design-patterns → 14-reflect → 15-codegen → 16-postgresql →
+17-system-design → 18-production → 19-grpc → 20-kafka →
+21-architecture → 22-performance → 23-security → 24-version-history →
+25-networking → 26-infrastructure → 27-linux → 28-git → 29-mongodb
 ```
 
 ## Содержание
@@ -35,36 +35,39 @@
 
 - [ ] [07. Memory Model](07-memory-model/) — happens-before, visibility, data races
 - [ ] [08. Generics](08-generics/) — type parameters, constraints, паттерны, ограничения | [задачи](08-generics/exercises/)
-- [ ] [09. Internals](09-internals/) — слайсы, мапы (classic + Swiss Table), каналы, scheduler (GMP), GC, аллокатор | [задачи](09-internals/exercises/)
+- [ ] [09. Стандартная библиотека](09-stdlib/) — net/http, encoding/json, io, bytes/strings, sort/slices, time, os, fmt | [задачи](09-stdlib/exercises/)
+- [ ] [10. Internals](10-internals/) — слайсы, мапы (classic + Swiss Table), каналы, scheduler (GMP), GC, аллокатор | [задачи](10-internals/exercises/)
 
 ### Инструменты и практики
 
-- [ ] [10. Profiling](10-profiling/) — benchmarks, pprof, trace, escape analysis, PGO | [задачи](10-profiling/exercises/)
-- [ ] [11. Design Patterns](11-design-patterns/) — creational, structural, behavioral, Go-specific | [задачи](11-design-patterns/exercises/)
-- [ ] [12. Reflect](12-reflect/) — type/value, struct tags, динамический доступ | [задачи](12-reflect/exercises/)
-- [ ] [13. Codegen](13-codegen/) — go generate, stringer, AST, шаблоны
+- [ ] [11. Advanced Testing](11-testing-advanced/) — integration tests, mocks/fakes, fuzzing, race detector, synctest | [задачи](11-testing-advanced/exercises/)
+- [ ] [12. Profiling](12-profiling/) — benchmarks, pprof, trace, escape analysis, PGO | [задачи](12-profiling/exercises/)
+- [ ] [13. Design Patterns](13-design-patterns/) — creational, structural, behavioral, Go-specific | [задачи](13-design-patterns/exercises/)
+- [ ] [14. Reflect](14-reflect/) — type/value, struct tags, динамический доступ | [задачи](14-reflect/exercises/)
+- [ ] [15. Codegen](15-codegen/) — go generate, stringer, AST, шаблоны
+
+### Базы данных и технологии
+
+- [ ] [16. PostgreSQL](16-postgresql/) — SQL fundamentals, драйверы, запросы, транзакции, миграции, индексы, паттерны | [задачи](16-postgresql/exercises/)
+- [ ] [17. System Design](17-system-design/) — подход, расчёты, масштабирование, БД, кэширование, API, messaging, distributed systems, reliability, case studies | [задачи](17-system-design/exercises/)
+- [ ] [18. Production Go](18-production/) — graceful shutdown, observability (slog, Prometheus, OpenTelemetry), configuration, resilience | [задачи](18-production/exercises/)
+- [ ] [19. gRPC](19-grpc/) — protobuf, типы вызовов, interceptors, error handling, metadata, production | [задачи](19-grpc/exercises/)
+- [ ] [20. Kafka](20-kafka/) — библиотеки, producer/consumer паттерны, DLQ, тестирование | [задачи](20-kafka/exercises/)
+- [ ] [21. Architecture](21-architecture/) — Clean Architecture, CQRS, Event Sourcing, DDD, microservices patterns | [задачи](21-architecture/exercises/)
+- [ ] [22. Performance](22-performance/) — memory optimization, CPU, I/O, connection pooling, zero-copy | [задачи](22-performance/exercises/)
+- [ ] [23. Security](23-security/) — SQL injection, XSS, JWT, OAuth2, crypto, RBAC/ABAC | [задачи](23-security/exercises/)
 
 ### Справочник
 
-- [ ] [14. История версий](14-version-history/) — изменения Go 1.18–1.26
-
-### Senior-Level Topics
-
-- [ ] [15. System Design](15-system-design/) — подход, расчёты, масштабирование, БД, кэширование, API, messaging, distributed systems, reliability, case studies | [задачи](15-system-design/exercises/)
-- [ ] [16. gRPC](16-grpc/) — protobuf, типы вызовов, interceptors, error handling, metadata, production | [задачи](16-grpc/exercises/)
-- [ ] [17. Kafka](17-kafka/) — библиотеки, producer/consumer паттерны, DLQ, тестирование | [задачи](17-kafka/exercises/)
-- [ ] [18. Advanced Testing](18-testing-advanced/) — integration tests, mocks/fakes, fuzzing, race detector, synctest | [задачи](18-testing-advanced/exercises/)
-- [ ] [19. Production Go](19-production/) — graceful shutdown, observability (slog, Prometheus, OpenTelemetry), configuration, resilience | [задачи](19-production/exercises/)
-- [ ] [20. Architecture](20-architecture/) — Clean Architecture, CQRS, Event Sourcing, DDD, microservices patterns | [задачи](20-architecture/exercises/)
-- [ ] [21. Security](21-security/) — SQL injection, XSS, JWT, OAuth2, crypto, RBAC/ABAC | [задачи](21-security/exercises/)
-- [ ] [22. Performance](22-performance/) — memory optimization, CPU, I/O, connection pooling, zero-copy | [задачи](22-performance/exercises/)
-- [ ] [23. Infrastructure](23-infrastructure/) — Docker multi-stage, Kubernetes, CI/CD, linting | [задачи](23-infrastructure/exercises/)
+- [ ] [24. История версий](24-version-history/) — изменения Go 1.18–1.26
 
 ### Фундаментальные знания
 
-- [ ] [24. Networking](24-networking/) — OSI, TCP/IP, HTTP/1.1-3, DNS, load balancing, troubleshooting | [задачи](24-networking/exercises/)
-- [ ] [25. Linux](25-linux/) — processes, filesystem, memory, networking, I/O, containers, troubleshooting, shell | [задачи](25-linux/exercises/)
-- [ ] [26. Git](26-git/) — internals (objects/DAG), branching (merge/rebase), workflows, bisect, hooks | [задачи](26-git/exercises/)
+- [ ] [25. Networking](25-networking/) — OSI, TCP/IP, HTTP/1.1-3, DNS, load balancing, troubleshooting | [задачи](25-networking/exercises/)
+- [ ] [26. Infrastructure](26-infrastructure/) — Docker multi-stage, Kubernetes, CI/CD (GitLab), linting | [задачи](26-infrastructure/exercises/)
+- [ ] [27. Linux](27-linux/) — processes, filesystem, memory, networking, I/O, containers, troubleshooting, shell | [задачи](27-linux/exercises/)
+- [ ] [28. Git](28-git/) — internals (objects/DAG), branching (merge/rebase), workflows, bisect, hooks | [задачи](28-git/exercises/)
+- [ ] [29. MongoDB](29-mongodb/) — драйвер, CRUD, моделирование данных, индексы, агрегации, транзакции | [задачи](29-mongodb/exercises/)
 
 ### Практика
 

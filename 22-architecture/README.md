@@ -8,6 +8,7 @@
 2. [CQRS и Event Sourcing](02-cqrs-event-sourcing.md) — реализация в Go
 3. [DDD в Go](03-ddd.md) — entities, value objects, aggregates, repositories
 4. [Microservices Patterns](04-microservices.md) — Saga, Outbox, API Gateway, Service Mesh
+5. [Гексагональная архитектура](05-hexagonal.md) — Ports & Adapters, driving/driven, сравнение с Clean Architecture
 
 
 ---

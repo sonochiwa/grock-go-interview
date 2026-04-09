@@ -13,8 +13,9 @@
 09-stdlib → 10-internals → 11-testing → 12-profiling →
 13-design-patterns → 14-reflect → 15-codegen → 16-postgresql →
 17-system-design → 18-production → 19-grpc → 20-kafka →
-21-architecture → 22-performance → 23-security → 24-version-history →
-25-networking → 26-infrastructure → 27-linux → 28-git → 29-mongodb
+21-redis → 22-architecture → 23-performance → 24-security →
+25-version-history → 26-networking → 27-infrastructure →
+28-linux → 29-git → 30-mongodb
 ```
 
 ## Содержание
@@ -35,7 +36,7 @@
 
 - [ ] [07. Memory Model](07-memory-model/) — happens-before, visibility, data races
 - [ ] [08. Generics](08-generics/) — type parameters, constraints, паттерны, ограничения | [задачи](08-generics/exercises/)
-- [ ] [09. Стандартная библиотека](09-stdlib/) — net/http, encoding/json, io, bytes/strings, sort/slices, time, os, fmt | [задачи](09-stdlib/exercises/)
+- [ ] [09. Стандартная библиотека](09-stdlib/) — net/http, encoding/json, io, bytes/strings, sort/slices, time, os, fmt, HTTP/REST паттерны | [задачи](09-stdlib/exercises/)
 - [ ] [10. Internals](10-internals/) — слайсы, мапы (classic + Swiss Table), каналы, scheduler (GMP), GC, аллокатор | [задачи](10-internals/exercises/)
 
 ### Инструменты и практики
@@ -53,21 +54,22 @@
 - [ ] [18. Production Go](18-production/) — graceful shutdown, observability (slog, Prometheus, OpenTelemetry), configuration, resilience | [задачи](18-production/exercises/)
 - [ ] [19. gRPC](19-grpc/) — protobuf, типы вызовов, interceptors, error handling, metadata, production | [задачи](19-grpc/exercises/)
 - [ ] [20. Kafka](20-kafka/) — библиотеки, producer/consumer паттерны, DLQ, тестирование | [задачи](20-kafka/exercises/)
-- [ ] [21. Architecture](21-architecture/) — Clean Architecture, CQRS, Event Sourcing, DDD, microservices patterns | [задачи](21-architecture/exercises/)
-- [ ] [22. Performance](22-performance/) — memory optimization, CPU, I/O, connection pooling, zero-copy | [задачи](22-performance/exercises/)
-- [ ] [23. Security](23-security/) — SQL injection, XSS, JWT, OAuth2, crypto, RBAC/ABAC | [задачи](23-security/exercises/)
+- [ ] [21. Redis](21-redis/) — типы данных, кэширование, distributed locks, pub/sub, Sentinel/Cluster, паттерны | [задачи](21-redis/exercises/)
+- [ ] [22. Architecture](22-architecture/) — Clean Architecture, CQRS, Event Sourcing, DDD, microservices patterns | [задачи](22-architecture/exercises/)
+- [ ] [23. Performance](23-performance/) — memory optimization, CPU, I/O, connection pooling, zero-copy | [задачи](23-performance/exercises/)
+- [ ] [24. Security](24-security/) — SQL injection, XSS, JWT, OAuth2, session auth, crypto, RBAC/ABAC | [задачи](24-security/exercises/)
 
 ### Справочник
 
-- [ ] [24. История версий](24-version-history/) — изменения Go 1.18–1.26
+- [ ] [25. История версий](25-version-history/) — изменения Go 1.18–1.26
 
 ### Фундаментальные знания
 
-- [ ] [25. Networking](25-networking/) — OSI, TCP/IP, HTTP/1.1-3, DNS, load balancing, troubleshooting | [задачи](25-networking/exercises/)
-- [ ] [26. Infrastructure](26-infrastructure/) — Docker multi-stage, Kubernetes, CI/CD (GitLab), linting | [задачи](26-infrastructure/exercises/)
-- [ ] [27. Linux](27-linux/) — processes, filesystem, memory, networking, I/O, containers, troubleshooting, shell | [задачи](27-linux/exercises/)
-- [ ] [28. Git](28-git/) — internals (objects/DAG), branching (merge/rebase), workflows, bisect, hooks | [задачи](28-git/exercises/)
-- [ ] [29. MongoDB](29-mongodb/) — драйвер, CRUD, моделирование данных, индексы, агрегации, транзакции | [задачи](29-mongodb/exercises/)
+- [ ] [26. Networking](26-networking/) — OSI, TCP/IP, HTTP/1.1-3, DNS, load balancing, troubleshooting | [задачи](26-networking/exercises/)
+- [ ] [27. Infrastructure](27-infrastructure/) — Docker multi-stage, Kubernetes, CI/CD (GitLab), linting | [задачи](27-infrastructure/exercises/)
+- [ ] [28. Linux](28-linux/) — processes, filesystem, memory, networking, I/O, containers, troubleshooting, shell | [задачи](28-linux/exercises/)
+- [ ] [29. Git](29-git/) — internals (objects/DAG), branching (merge/rebase), workflows, bisect, hooks | [задачи](29-git/exercises/)
+- [ ] [30. MongoDB](30-mongodb/) — драйвер, CRUD, моделирование данных, индексы, агрегации, транзакции | [задачи](30-mongodb/exercises/)
 
 ### Практика
 

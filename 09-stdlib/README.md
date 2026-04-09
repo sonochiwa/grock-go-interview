@@ -15,6 +15,7 @@
 | 07 | [os и filepath](07-os-filepath.md) | файловая система, переменные окружения, сигналы, os.Exit vs log.Fatal |
 | 08 | [fmt](08-fmt.md) | verbs (%v, %+v, %#v, %T), Stringer, GoStringer, Formatter, Errorf |
 | 09 | [maps и cmp](09-maps-cmp.md) | maps.Clone, maps.Keys, cmp.Or, cmp.Compare (1.21+) |
+| 10 | [HTTP/REST паттерны](10-http-patterns.md) | REST, middleware, routing (ServeMux 1.22+), request/response, graceful shutdown, тестирование |
 
 ---
 
